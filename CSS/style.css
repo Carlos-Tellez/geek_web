@@ -118,7 +118,8 @@ header{
 #bienvenidos{
     text-align: center;
     padding: 55px 0px;
-    background:linear-gradient(to top,rgba(0, 0, 0, 0.825),rgba(175, 175, 175, 0.625) );
+    background-image: url(/geek_web/Media/img/fondocosplayv3.jpg);
+    background-size: cover;
     text-shadow: 0 0 5px violet,0 0 15px  violet,0 0 30px  violet;
     color: #ffffff;
     font-family: 'Comic Neue', cursive;
@@ -142,7 +143,8 @@ header{
 /*------------------------------------------------------Blog - Index ------------------------------------------------------------------------------*/
 
 #blog{
-    background:linear-gradient(rgba(0, 0, 0, 0.825),rgba(175, 175, 175, 0.625) );
+    background-image: url(/geek_web/Media/img/fondocosplayv.jpg);
+    background-size: cover;
     text-align: center;
     padding: 55px 0px;
     text-shadow: 0 0 5px orange,0 0 15px orange,0 0 30px  orange;
@@ -173,7 +175,7 @@ article img {
 /*------------------------------------------------------Info - Index------------------------------------------------------------------------------*/
 
 #info {
-    background-image: url(/geek_web/Media/img/beven.jpg);
+    background-image: url(/geek_web/Media/img/bocm3.jpg);
     background-size: cover;
 	color: #fff;
 	text-align: center;
@@ -204,7 +206,8 @@ article img {
 
 #v_videoj{
     padding: 20px;
-    background-color:rgba(0, 0, 0, 0.825);
+    background-image: url(/geek_web/Media/img/fondovjjpeg.jpeg);
+    background-size: cover;
     align-items: center;
 	text-align: center;
     text-shadow: 0 0 5px orange,0 0 15px  orange,0 0 30px  orange;
@@ -260,7 +263,7 @@ article img {
 #blog-xbox{
     text-align: center;
     padding: 20px;
-    background-color:rgba(0, 0, 0, 0.825);
+    background:linear-gradient(rgba(0, 0, 0, 0.825),rgba(16, 89, 28, 0.807),rgba(175, 175, 175, 0.625) );
     font-family: 'Comic Neue', cursive;
 
 }
@@ -342,7 +345,7 @@ article img {
 #blog-play{
     text-align: center;
     padding: 20px;
-    background-color:rgba(15, 15, 32, 0.825);
+    background:linear-gradient(rgba(0, 0, 0, 0.825),rgba(27, 16, 89, 0.807),rgba(175, 175, 175, 0.625) );
     font-family: 'Comic Neue', cursive;
 
 }
@@ -393,7 +396,8 @@ article img {
 #cosplay{
     text-align: center;
     padding: 20px;
-    background-color:rgba(15, 15, 32, 0.825);
+    background-image: url(/geek_web/Media/img/fondocosplayv2.jpg);
+    background-size: cover;
     font-family: 'Comic Neue', cursive;
 }
 
@@ -452,7 +456,9 @@ article img {
 
 #v_vcosplay{
     padding: 20px;
-    background: rgba(175, 175, 175, 0.625);
+    background-image: url(/geek_web/Media/img/fondocosplayv.jpg);
+    background-size: cover;
+    background-position: center;
     align-items: center;
 	text-align: center;
     text-shadow: 0 0 5px blueviolet,0 0 15px  blueviolet,0 0 30px  blueviolet;
@@ -463,7 +469,7 @@ article img {
 
 .pf{
     text-shadow: none;
-	color: rgb(2, 2, 48);
+	color: white;
     border: 5px solid rgba(255, 255, 255, 0.851);
     box-shadow: inset 0 0 8px blueviolet, 0 0 8px blueviolet;
     border-radius: 20px;
@@ -485,7 +491,8 @@ article img {
 
 #vcf{
     padding: 20px;
-    background: rgba(175, 175, 175, 0.625);
+    background-image: url(/geek_web/Media/img/fondocosplayv3.jpg);
+    background-size: cover;
     align-items: center;
 	text-align: center;
     text-shadow: 0 0 5px rgb(166, 0, 255),0 0 15px rgb(166, 0, 255),0 0 30px rgb(166, 0, 255);
@@ -511,14 +518,14 @@ article img {
 /*------------------------------------------------------Grid - Evntos------------------------------------------------------------------------------*/
 #grid-ev{
     display: grid;
+    grid-gap: 20px;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
     grid-template-areas: 
     "naranja"
     "eventosc"
     "carrusel" 
-
-    ;
+    "evccs";
 }
 
 /*------------------------------------------------------Video - Evntos------------------------------------------------------------------------------*/
@@ -561,8 +568,7 @@ article img {
 /*------------------------------------------------------Info - Evntos------------------------------------------------------------------------------*/
 
 #info-e {
-    grid-area: eventosc;
-    background-image: url(/geek_web/Media/img/bocm2.jpg);
+    background-image: url(/geek_web/Media/img/bocm3.jpg);
     background-size: cover;
 	color: #fff;
 	text-align: center;
@@ -593,12 +599,66 @@ article img {
 #carrusel{
     grid-area: carrusel;
     width: 580px;
-    justify-content: center;
-    align-items: center;
-    
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+    color: white;
+    border: 5px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px rgb(255, 179, 0), 0 0 8px rgb(255, 179, 0);
+    border-radius: 20px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+
+
 }
 
-/*------------------------------------------------------Carrusel - Evntos------------------------------------------------------------------------------*/
+/*------------------------------------------------------comicon san diego - Evntos------------------------------------------------------------------------------*/
+#event-ccsan{
+    grid-area: evccs;
+    background-image: url(/geek_web/Media/img/ccsb.jpg);
+    background-size: cover; 
+    color: white; 
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+}
+
+#event-ccsan h1{
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+	text-align: center;
+	padding: 20px;
+    text-shadow: 0 0 5px rgb(255, 179, 0),0 0 15px  rgb(255, 179, 0),0 0 30px rgb(255, 179, 0);
+    font-family: 'Comic Neue', cursive;
+}
+
+.pfev{
+    text-shadow: none;
+	color: white;
+    border: 5px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px rgb(255, 179, 0), 0 0 8px rgb(255, 179, 0);
+    border-radius: 20px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+}
+
+.vf1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+.vf1 iframe{
+    border: 10px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px rgb(255, 179, 0), 0 0 8px rgb(255, 179, 0), 0 0 16px rgb(255, 179, 0);
+    border-radius: 20px;
+    padding: 10px;
+    
+}
 
 /*----------------------------------------------------------Footer------------------------------------------------------------------------------*/
 

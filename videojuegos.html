@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Título de pestaña -->
     <title>Geek Web - Video Juegos </title>
@@ -33,24 +34,27 @@
 
     <section id="banner">
         <img src="Media/img/videojuego.jpg">
-        <div class="contenedor">
-            <h2 class="neon"> Aqui encontraras todas las Novedades del Mundo de los video juegos </h2>
+        <div class="contenedor" data-aos="zoom-in-left" data-aos-duration="3000">
+            <h2 class="neon"> Aqui encontraras todas las Novedades del  </h2>
+            <h3 class="neon2"> 
+                <span class="flicker1"> Mundo de los video juegos </span>
+            </h3>
         </div>
     </section>
 
     <section id="v_videoj">
-            <h2>Todos los detalles sobre el mundo de Gaming, Gameplays, accesorios, Videojuegos .</h2>
+            <h2 data-aos="zoom-in" data-aos-duration="3000" >Todos los detalles sobre el mundo de Gaming, Gameplays, accesorios, Videojuegos .</h2>
         <div class="v_vj">
-            <img src="Media/img/videoj2.gif" width="360" height="215">
+            <img src="Media/img/videoj2.gif" width="360" height="215" data-aos="flip-left"  data-aos-duration="3000">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/hjC9FkvE1TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <img src="Media/img/videoj1.gif" width="360" height="215">
+            <img src="Media/img/videoj1.gif" width="360" height="215" data-aos="flip-right"  data-aos-duration="3000">
         </div>
     </section>  
 
-    <section id="banner-xbox">
+    <section id="banner-xbox" >
         <img src="Media/img/xbox-banner.jpg">
-        <div class="contenedor">
-            <h2 class="neon"> Eres amante de los Juegos de Xbox, aqui te tenemos las ultimas noticias </h2>
+        <div class="contenedor" >
+            <h2 class="neon" data-aos="fade-right" data-aos-duration="2000"> Eres amante de los Juegos de Xbox, aqui te tenemos las ultimas noticias </h2>
         </div>
     </section>
 
@@ -59,9 +63,9 @@
     <section id="blog-xbox">
         <div class="contenedor">
             <h3 class="neon"> 
-                <span class="flicker1"> Lanzamientos de videojuegos para XBOX en  2023 </span>
+                <span class="flicker1" > Lanzamientos de videojuegos para XBOX en  2023 </span>
             </h3>
-            <div class="juegox1">
+            <div class="juegox1" data-aos="fade-left" data-aos-duration="3000">
                 <img src="Media/img/kakarot-xbox.jpg" width="200" height="300">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/tgVCR1Fsvgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <div class="im2">
@@ -70,7 +74,7 @@
                 </div>
             </div>
             
-            <div class="juegox2">
+            <div class="juegox2"data-aos="fade-right" data-aos-duration="3000">
                 <div>
                     <h4>One Piece Odyssey (Xbox Series X/S) - Fecha de Lanzamiento 13 de enero</h4>
                     <img src="Media/img/one-piece-odyssey.gif" alt="One Piece" width="350" height="238">
@@ -84,7 +88,7 @@
 <section id="banner-play">
         <img src="Media/img/play-banner .jpeg">
         <div class="contenedor">
-            <h2 class="neon"> Eres amante de los Juegos de Play Station, aqui te tenemos las ultimas noticias </h2>
+            <h2 class="neon" data-aos="fade-left" data-aos-duration="2000"> Eres amante de los Juegos de Play Station, aqui te tenemos las ultimas noticias </h2>
         </div>
     </section>
 
@@ -95,7 +99,7 @@
             <h3 class="neon">
                 <span class="flicker1"> Lanzamientos de videojuegos para Play Station en  2023 </span>
             </h3>
-            <div class="juegop1">
+            <div class="juegop1" data-aos="fade-right" data-aos-duration="3000">
                 <img src="Media/img/Star Wars.jpg" width="200" height="300">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/9ulsvAx-E2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <div>
@@ -104,7 +108,7 @@
                 </div>
             </div>
             
-            <div class="juegop2">
+            <div class="juegop2" data-aos="fade-left" data-aos-duration="3000">
                 <div>
                     <h4>Resident Evil 4 (PS4 y PS5) - Fecha de Lanzamiento 24 de marzo de 2023</h4>
                     <img src="Media/img/resident.gif" alt="Resident" width="350" height="238" >
@@ -127,6 +131,11 @@
     <i class="fa-brands fa-twitter"></i>
     <i class="fa-brands fa-tiktok"></i>
 </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
 </body>
 
 </html>
