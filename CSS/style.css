@@ -3,24 +3,24 @@
 /*  font-family: 'Comic Neue', cursive; -- si es para parrafos
     font-family: 'Roboto', sans-serif; -- si es para titulos*/
 * {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
-    width: 100%;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 999;
-    background-color: #13005A;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: #13005A;
 }
 
 /*---------------------------------------------------------  Header - MENU -------------------------------------------------------------------------------*/
@@ -136,10 +136,10 @@ nav {
 }
 
 @keyframes parpadear {
-    to {
-        color: gray;
-        text-shadow: none;
-    }
+  to {
+    color: gray;
+    text-shadow: none;
+  }
 }
 /*------------------------------------------------------Bienvenidos - Index ------------------------------------------------------------------------------*/
 #bienvenidos {
@@ -148,7 +148,7 @@ nav {
   background-image: url(/geek_web/Media/img/fondocosplayv3.jpg);
   background-size: cover;
   text-shadow: 0 0 5px violet, 0 0 15px violet, 0 0 30px violet;
-  color: #ffffff;
+  color: white;
   font-family: "Comic Neue", cursive;
 }
 
@@ -174,7 +174,7 @@ nav {
   text-align: center;
   padding: 55px 0px;
   text-shadow: 0 0 5px orange, 0 0 15px orange, 0 0 30px orange;
-  color: #ffffff;
+  color: white;
   font-family: "Comic Neue", cursive;
 }
 
@@ -204,7 +204,7 @@ article img {
 #info {
   background-image: url(/geek_web/Media/img/bocm3.jpg);
   background-size: cover;
-  color: #fff;
+  color: white;
   text-align: center;
   padding: 20px;
   text-shadow: 0 0 5px rgb(0, 166, 255), 0 0 15px rgb(0, 166, 255), 0 0 30px rgb(0, 166, 255);
@@ -237,7 +237,7 @@ article img {
   align-items: center;
   text-align: center;
   text-shadow: 0 0 5px orange, 0 0 15px orange, 0 0 30px orange;
-  color: #fff;
+  color: white;
   font-family: "Comic Neue", cursive;
 }
 
@@ -296,7 +296,7 @@ article img {
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
-  color: #ffffff;
+  color: white;
   font-family: "Comic Neue", cursive;
 }
 
@@ -312,7 +312,7 @@ article img {
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
-  color: #ffffff;
+  color: white;
   font-family: "Comic Neue", cursive;
 }
 
@@ -327,7 +327,7 @@ article img {
   margin: 0;
   font-size: 40px;
   text-shadow: 0 0 5px yellowgreen, 0 0 15px yellowgreen, 0 0 30px yellowgreen, 0 0 50px yellowgreen;
-  color: #fff;
+  color: white;
 }
 
 /*------------------------------------------------------Banner - Play------------------------------------------------------------------------------*/
@@ -371,7 +371,7 @@ article img {
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
-  color: #ffffff;
+  color: white;
   font-family: "Comic Neue", cursive;
 }
 
@@ -387,7 +387,7 @@ article img {
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
-  color: #ffffff;
+  color: white;
   font-family: "Comic Neue", cursive;
 }
 
@@ -402,7 +402,7 @@ article img {
   margin: 0;
   font-size: 40px;
   text-shadow: 0 0 5px blue, 0 0 15px blue, 0 0 30px blue, 0 0 50px blue;
-  color: #fff;
+  color: white;
 }
 
 /*------------------------------------------------------ - Cosplay------------------------------------------------------------------------------*/
@@ -438,7 +438,7 @@ article img {
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
-  color: #ffffff;
+  color: white;
 }
 
 .parra2 p {
@@ -456,7 +456,7 @@ article img {
   margin: 0;
   font-size: 40px;
   text-shadow: 0 0 5px yellow, 0 0 15px yellow, 0 0 30px yellow, 0 0 50px yellow;
-  color: #fff;
+  color: white;
 }
 
 /*------------------------------------------------------Video - Cosplay------------------------------------------------------------------------------*/
@@ -468,7 +468,7 @@ article img {
   align-items: center;
   text-align: center;
   text-shadow: 0 0 5px blueviolet, 0 0 15px blueviolet, 0 0 30px blueviolet;
-  color: #fff;
+  color: white;
   font-family: "Comic Neue", cursive;
 }
 
@@ -534,7 +534,7 @@ article img {
   align-items: center;
   text-align: center;
   text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red;
-  color: #fff;
+  color: white;
   font-family: "Comic Neue", cursive;
 }
 
@@ -563,7 +563,7 @@ article img {
 #info-e {
   background-image: url(/geek_web/Media/img/bocm3.jpg);
   background-size: cover;
-  color: #fff;
+  color: white;
   text-align: center;
   padding: 20px;
   text-shadow: 0 0 5px rgb(0, 166, 255), 0 0 15px rgb(0, 166, 255), 0 0 30px rgb(0, 166, 255);
@@ -606,7 +606,7 @@ article img {
 #event-ccsan h1 {
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: white;
   text-align: center;
   padding: 20px;
   text-shadow: 0 0 5px rgb(255, 179, 0), 0 0 15px rgb(255, 179, 0), 0 0 30px rgb(255, 179, 0);
@@ -660,7 +660,7 @@ article img {
 #cs-anime h1 {
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: white;
   text-align: center;
   padding: 20px;
   text-shadow: 0 0 5px rgb(255, 179, 0), 0 0 15px rgb(255, 179, 0), 0 0 30px rgb(255, 179, 0);
@@ -705,7 +705,7 @@ article img {
 #cs-marvel h1 {
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: white;
   text-align: center;
   padding: 20px;
   text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red;
@@ -750,7 +750,7 @@ article img {
 #cs-mario h1 {
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: white;
   text-align: center;
   padding: 20px;
   text-shadow: 0 0 5px rgb(2, 255, 2), 0 0 15px rgb(2, 255, 2), 0 0 30px rgb(2, 255, 2);
@@ -790,7 +790,7 @@ footer {
   width: 100%;
   font-family: "Comic Neue", cursive;
   background-color: #13005A;
-  color: #ffffff;
+  color: white;
   text-align: center;
   padding-top: 15px;
 }

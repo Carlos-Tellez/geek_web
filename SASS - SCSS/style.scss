@@ -5,6 +5,8 @@
 /*  font-family: 'Comic Neue', cursive; -- si es para parrafos
     font-family: 'Roboto', sans-serif; -- si es para titulos*/
 
+    $color-letra:white;
+
     * {
         padding: 0;
         margin: 0;
@@ -44,7 +46,7 @@ nav {
 
 .bar-btn {
     font-size: 25px;
-    color: white;
+    color: $color-letra;
     margin-right: 20px;
     cursor: pointer;
 }
@@ -67,7 +69,7 @@ nav {
 }
 
 .nav-menu li a {
-    color: white;
+    color: $color-letra;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
@@ -159,7 +161,7 @@ nav {
     background-image: url(/geek_web/Media/img/fondocosplayv3.jpg);
     background-size: cover;
     text-shadow: 0 0 5px violet,0 0 15px  violet,0 0 30px  violet;
-    color: #ffffff;
+    color: $color-letra;
     font-family: 'Comic Neue', cursive;
 }
 
@@ -186,7 +188,7 @@ nav {
     text-align: center;
     padding: 55px 0px;
     text-shadow: 0 0 5px orange,0 0 15px orange,0 0 30px  orange;
-    color: #ffffff;
+    color: $color-letra;
     font-family: 'Comic Neue', cursive;
 }
 
@@ -217,7 +219,7 @@ article img {
 #info {
     background-image: url(/geek_web/Media/img/bocm3.jpg);
     background-size: cover;
-	color: #fff;
+	color: $color-letra;
 	text-align: center;
 	padding: 20px;
     text-shadow: 0 0 5px rgb(0, 166, 255),0 0 15px  rgb(0, 166, 255),0 0 30px rgb(0, 166, 255);
@@ -252,7 +254,7 @@ article img {
     align-items: center;
 	text-align: center;
     text-shadow: 0 0 5px orange,0 0 15px  orange,0 0 30px  orange;
-    color: #fff;
+    color:$color-letra;
     font-family: 'Comic Neue', cursive;
 }
 .v_vj{
@@ -314,7 +316,7 @@ article img {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
-    color: #ffffff;
+    color: $color-letra;
     font-family: 'Comic Neue', cursive;
 
 }
@@ -332,7 +334,7 @@ article img {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
-    color: #ffffff;
+    color: $color-letra;
     font-family: 'Comic Neue', cursive;
 
 }
@@ -348,7 +350,7 @@ article img {
     margin: 0;
     font-size: 40px;
     text-shadow: 0 0 5px yellowgreen,0 0 15px yellowgreen,0 0 30px yellowgreen,0 0 50px yellowgreen;
-    color: #fff;
+    color: $color-letra;
 }
 
 /*------------------------------------------------------Banner - Play------------------------------------------------------------------------------*/
@@ -396,7 +398,7 @@ article img {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
-    color: #ffffff;
+    color: $color-letra;
     font-family: 'Comic Neue', cursive;
 
 }
@@ -413,7 +415,7 @@ article img {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
-    color: #ffffff;
+    color: $color-letra;
     font-family: 'Comic Neue', cursive;
 
 }
@@ -429,7 +431,7 @@ article img {
     margin: 0;
     font-size: 40px;
     text-shadow: 0 0 5px blue,0 0 15px blue,0 0 30px blue,0 0 50px blue;
-    color: #fff;
+    color: $color-letra;
 }
 
 /*------------------------------------------------------ - Cosplay------------------------------------------------------------------------------*/
@@ -447,7 +449,7 @@ article img {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
-    color: white;
+    color: $color-letra;
     
 
 }
@@ -470,7 +472,7 @@ article img {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
-    color: #ffffff;
+    color: $color-letra;
 }
 
 .parra2 p {
@@ -490,7 +492,7 @@ article img {
     margin: 0;
     font-size: 40px;
     text-shadow: 0 0 5px yellow,0 0 15px yellow,0 0 30px yellow,0 0 50px yellow;
-    color: #fff;
+    color: $color-letra;
 }
 
 
@@ -504,14 +506,14 @@ article img {
     align-items: center;
 	text-align: center;
     text-shadow: 0 0 5px blueviolet,0 0 15px  blueviolet,0 0 30px  blueviolet;
-    color: #fff;
+    color: $color-letra;
     font-family: 'Comic Neue', cursive;
 
 }
 
 .pf{
     text-shadow: none;
-	color: white;
+	color: $color-letra;
     border: 5px solid rgba(255, 255, 255, 0.851);
     box-shadow: inset 0 0 8px blueviolet, 0 0 8px blueviolet;
     border-radius: 20px;
@@ -539,7 +541,7 @@ article img {
     align-items: center;
 	text-align: center;
     text-shadow: 0 0 5px rgb(166, 0, 255),0 0 15px rgb(166, 0, 255),0 0 30px rgb(166, 0, 255);
-    color: white;
+    color: $color-letra;
     font-family: 'Comic Neue', cursive;
 }
 
@@ -581,7 +583,7 @@ article img {
     align-items: center;
 	text-align: center;
     text-shadow: 0 0 5px red,0 0 15px  red,0 0 30px  red;
-    color: #fff;
+    color: $color-letra;
     font-family: 'Comic Neue', cursive;
 
 }
@@ -613,7 +615,7 @@ article img {
 #info-e {
     background-image: url(/geek_web/Media/img/bocm3.jpg);
     background-size: cover;
-	color: #fff;
+	color: $color-letra;
 	text-align: center;
 	padding: 20px;
     text-shadow: 0 0 5px rgb(0, 166, 255),0 0 15px  rgb(0, 166, 255),0 0 30px rgb(0, 166, 255);
@@ -649,7 +651,7 @@ article img {
     grid-area: evccs;
     background-image: url(/geek_web/Media/img/ccsb.jpg);
     background-size: cover; 
-    color: white; 
+    color: $color-letra; 
     text-align: center;
     font-family: 'Comic Neue', cursive;
 }
@@ -657,7 +659,7 @@ article img {
 #event-ccsan h1{
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: $color-letra;
 	text-align: center;
 	padding: 20px;
     text-shadow: 0 0 5px rgb(255, 179, 0),0 0 15px  rgb(255, 179, 0),0 0 30px rgb(255, 179, 0);
@@ -666,7 +668,7 @@ article img {
 
 .pfev{
     text-shadow: none;
-	color: white;
+	color: $color-letra;
     border: 5px solid rgba(255, 255, 255, 0.851);
     box-shadow: inset 0 0 8px rgb(255, 179, 0), 0 0 8px rgb(255, 179, 0);
     border-radius: 20px;
@@ -716,7 +718,7 @@ article img {
 #cs-anime h1{
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: $color-letra;
 	text-align: center;
 	padding: 20px;
     text-shadow: 0 0 5px rgb(255, 179, 0),0 0 15px  rgb(255, 179, 0),0 0 30px rgb(255, 179, 0);
@@ -732,7 +734,7 @@ article img {
 
 .pani{
     text-shadow: none;
-	color: white;
+	color: $color-letra;
     border: 5px solid rgba(255, 255, 255, 0.851);
     box-shadow: inset 0 0 8px rgb(255, 179, 0), 0 0 8px rgb(255, 179, 0);
     border-radius: 20px;
@@ -765,7 +767,7 @@ article img {
 #cs-marvel h1{
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: $color-letra;
 	text-align: center;
 	padding: 20px;
     text-shadow: 0 0 5px red,0 0 15px  red,0 0 30px red;
@@ -781,7 +783,7 @@ article img {
 
 .panim{
     text-shadow: none;
-	color: white;
+	color: $color-letra;
     border: 5px solid rgba(255, 255, 255, 0.851);
     box-shadow: inset 0 0 8px red, 0 0 8px red;
     border-radius: 20px;
@@ -814,7 +816,7 @@ article img {
 #cs-mario h1{
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: $color-letra;
 	text-align: center;
 	padding: 20px;
     text-shadow: 0 0 5px rgb(2, 255, 2),0 0 15px  rgb(2, 255, 2),0 0 30px rgb(2, 255, 2);
@@ -830,7 +832,7 @@ article img {
 
 .panimr{
     text-shadow: none;
-	color: white;
+	color: $color-letra;
     border: 5px solid rgba(255, 255, 255, 0.851);
     box-shadow: inset 0 0 8px rgb(2, 255, 2), 0 0 8px rgb(2, 255, 2);
     border-radius: 20px;
@@ -858,7 +860,7 @@ footer {
     width: 100%;
     font-family: 'Comic Neue', cursive;
     background-color:#13005A;
-    color: #ffffff;
+    color: $color-letra;
     text-align: center;
     padding-top: 15px;
 }
