@@ -1,0 +1,864 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Roboto:wght@700&display=swap');
+
+/*------------------------------------------------------ Globales ------------------------------------------------------------------------------*/
+
+/*  font-family: 'Comic Neue', cursive; -- si es para parrafos
+    font-family: 'Roboto', sans-serif; -- si es para titulos*/
+
+    * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    header {
+        width: 100%; 
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        background-color: #13005A;
+    }
+
+/*---------------------------------------------------------  Header - MENU -------------------------------------------------------------------------------*/
+/* NAVIGATION */
+nav {
+    height: 100px;
+    width: 100%;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+    margin-left: 20px;
+}
+
+
+.bar-btn {
+    font-size: 25px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    background:  #14005aa8;
+    text-align: center;
+    transition: all .5s;
+}
+
+.nav-menu li {
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5s;
+}
+
+.nav-menu li a {
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-menu li a.active, .nav-menu li a:hover {
+    color: blue;
+    transition: .3s;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked ~ .nav-menu {
+    height: 100vh;
+}
+
+#check:checked ~ .nav-menu li {
+    display: block;
+}
+
+
+/*------------------------------------------------------Banner - Principal------------------------------------------------------------------------------*/
+
+#banner{
+    position: relative;
+}
+
+#banner img{
+    width: 100%;
+    
+}
+
+#banner .contenedor{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	color: rgb(253, 253, 255);
+
+    border: 5px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px blue, 0 0 8px blue;
+    border-radius: 20px;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#banner .neon{
+    margin: 0;
+    font-size: 40px;
+    text-shadow: 0 0 5px blueviolet,0 0 15px blueviolet,0 0 30px blueviolet,0 0 50px blueviolet;
+    font-family: 'Roboto', sans-serif;
+}
+
+#banner .neon2{
+    margin: 0;
+    font-size: 40px;
+    text-shadow: 0 0 5px rgb(0, 174, 255),0 0 15px rgb(0, 174, 255),0 0 30px rgb(0, 174, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+#banner .neon3{
+    margin: 0;
+    font-size: 20px;
+    text-shadow: 0 0 5px  rgb(243, 243, 107),0 0 15px  rgb(243, 243, 107),0 0 30px   rgb(243, 243, 107);
+    font-family: 'Roboto', sans-serif;
+}
+
+.flicker1{
+    animation: parpadear 2s infinite backwards steps(2);
+}
+
+@keyframes parpadear {
+    to{
+        color: gray;
+        text-shadow: none;
+    }
+    
+}
+
+/*------------------------------------------------------Bienvenidos - Index ------------------------------------------------------------------------------*/
+
+#bienvenidos{
+    text-align: center;
+    padding: 55px 0px;
+    background-image: url(/geek_web/Media/img/fondocosplayv3.jpg);
+    background-size: cover;
+    text-shadow: 0 0 5px violet,0 0 15px  violet,0 0 30px  violet;
+    color: #ffffff;
+    font-family: 'Comic Neue', cursive;
+}
+
+.Gif{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.Gif img{
+    border: 5px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px blueviolet, 0 0 8px blueviolet;
+    border-radius: 20px;
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+}
+
+/*------------------------------------------------------Blog - Index ------------------------------------------------------------------------------*/
+
+#blog{
+    background-image: url(/geek_web/Media/img/fondocosplayv.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 55px 0px;
+    text-shadow: 0 0 5px orange,0 0 15px orange,0 0 30px  orange;
+    color: #ffffff;
+    font-family: 'Comic Neue', cursive;
+}
+
+#blog h2{
+    margin-bottom: 60px;
+}
+
+#blog .contenedor1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.art {
+    margin: 10px;
+}
+
+article img {
+    border: 5px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px orangered, 0 0 8px orangered;
+    border-radius: 20px;
+    max-width: 400px;
+    margin: auto;
+    padding: 5px;
+}
+
+/*------------------------------------------------------Info - Index------------------------------------------------------------------------------*/
+
+#info {
+    background-image: url(/geek_web/Media/img/bocm3.jpg);
+    background-size: cover;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+    text-shadow: 0 0 5px rgb(0, 166, 255),0 0 15px  rgb(0, 166, 255),0 0 30px rgb(0, 166, 255);
+    font-family: 'Comic Neue', cursive;
+}
+
+#info .contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.info-event {
+	margin: 20px;
+}
+
+.info-e img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 7px solid #fff;
+    box-shadow: inset 0 0 8px rgb(0, 166, 255), 0 0 8px  rgb(0, 166, 255);
+}
+
+
+/*------------------------------------------------------Video - Video Juegos------------------------------------------------------------------------------*/
+
+#v_videoj{
+    padding: 20px;
+    background-image: url(/geek_web/Media/img/fondovjjpeg.jpeg);
+    background-size: cover;
+    align-items: center;
+	text-align: center;
+    text-shadow: 0 0 5px orange,0 0 15px  orange,0 0 30px  orange;
+    color: #fff;
+    font-family: 'Comic Neue', cursive;
+}
+.v_vj{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+.v_vj img{
+    border: 5px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px orange, 0 0 8px orange;
+    border-radius: 20px;
+    margin: auto;
+    padding: 5px;
+}
+
+/*------------------------------------------------------Banner - Xbox ------------------------------------------------------------------------------*/
+
+#banner-xbox{
+    position: relative;
+}
+
+#banner-xbox img{
+    width: 100%;
+    padding: 5px;;
+    
+}
+
+#banner-xbox .contenedor{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	color: rgb(253, 253, 255);
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#banner-xbox .neon{
+    margin: 0;
+    font-size: 40px;
+    text-shadow: 0 0 5px yellowgreen,0 0 15px yellowgreen,0 0 30px yellowgreen,0 0 50px yellowgreen;
+}
+
+/*------------------------------------------------------Blog - Xbox ------------------------------------------------------------------------------*/
+#blog-xbox{
+    text-align: center;
+    padding: 20px;
+    background:linear-gradient(rgba(0, 0, 0, 0.825),rgba(16, 89, 28, 0.807),rgba(175, 175, 175, 0.625) );
+    font-family: 'Comic Neue', cursive;
+
+}
+
+#blog-xbox .juegox1{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: #ffffff;
+    font-family: 'Comic Neue', cursive;
+
+}
+
+#blog-xbox .juegox1 img  {
+    border: 5px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px rgb(19, 225, 5), 0 0 8px rgb(19, 225, 5);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+
+#blog-xbox .juegox2{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: #ffffff;
+    font-family: 'Comic Neue', cursive;
+
+}
+
+#blog-xbox .juegox2 img  {
+    border: 5px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px rgb(19, 225, 5), 0 0 8px rgb(19, 225, 5);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+#blog-xbox .neon{
+    margin: 0;
+    font-size: 40px;
+    text-shadow: 0 0 5px yellowgreen,0 0 15px yellowgreen,0 0 30px yellowgreen,0 0 50px yellowgreen;
+    color: #fff;
+}
+
+/*------------------------------------------------------Banner - Play------------------------------------------------------------------------------*/
+
+#banner-play{
+    position: relative;
+}
+
+#banner-play img{
+    width: 100%;
+    padding: 5px;;
+    
+}
+
+#banner-play .contenedor{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	color: rgb(253, 253, 255);
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#banner-play .neon{
+    margin: 0;
+    font-size: 40px;
+    text-shadow: 0 0 5px rgb(50, 60, 205),0 0 15px rgb(50, 60, 205),0 0 30px rgb(50, 60, 205),0 0 50px rgb(50, 60, 205);
+}
+
+/*------------------------------------------------------Blog - Play------------------------------------------------------------------------------*/
+
+#blog-play{
+    text-align: center;
+    padding: 20px;
+    background:linear-gradient(rgba(0, 0, 0, 0.825),rgba(27, 16, 89, 0.807),rgba(175, 175, 175, 0.625) );
+    font-family: 'Comic Neue', cursive;
+
+}
+
+#blog-play .juegop1{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: #ffffff;
+    font-family: 'Comic Neue', cursive;
+
+}
+
+#blog-play .juegop1 img  {
+    border: 5px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px rgb(5, 89, 225), 0 0 8px rgb(5, 89, 225);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+#blog-play .juegop2{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: #ffffff;
+    font-family: 'Comic Neue', cursive;
+
+}
+
+#blog-play .juegop2 img  {
+    border: 5px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px rgb(5, 89, 225), 0 0 8px rgb(5, 89, 225);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+#blog-play .neon{
+    margin: 0;
+    font-size: 40px;
+    text-shadow: 0 0 5px blue,0 0 15px blue,0 0 30px blue,0 0 50px blue;
+    color: #fff;
+}
+
+/*------------------------------------------------------ - Cosplay------------------------------------------------------------------------------*/
+
+#cosplay{
+    text-align: center;
+    padding: 20px;
+    background-image: url(/geek_web/Media/img/fondocosplayv2.jpg);
+    background-size: cover;
+    font-family: 'Comic Neue', cursive;
+}
+
+#cosplay .parra1{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: white;
+    
+
+}
+
+#cosplay .parra1 img{
+    border: 5px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px rgb(255, 200, 0), 0 0 8px rgb(255, 200, 0);
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+.parra1 p {
+    align-self: center;
+
+}
+
+#cosplay .parra2{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.parra2 p {
+    align-self: center;
+
+}
+
+#cosplay .parra2 img{
+    border: 5px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px rgb(255, 200, 0), 0 0 8px rgb(255, 200, 0);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+#cosplay .neon{
+    margin: 0;
+    font-size: 40px;
+    text-shadow: 0 0 5px yellow,0 0 15px yellow,0 0 30px yellow,0 0 50px yellow;
+    color: #fff;
+}
+
+
+/*------------------------------------------------------Video - Cosplay------------------------------------------------------------------------------*/
+
+#v_vcosplay{
+    padding: 20px;
+    background-image: url(/geek_web/Media/img/fondocosplayv.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+	text-align: center;
+    text-shadow: 0 0 5px blueviolet,0 0 15px  blueviolet,0 0 30px  blueviolet;
+    color: #fff;
+    font-family: 'Comic Neue', cursive;
+
+}
+
+.pf{
+    text-shadow: none;
+	color: white;
+    border: 5px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px blueviolet, 0 0 8px blueviolet;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+}
+
+.v_vc{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+
+/*------------------------------------------------------Video  final - Cosplay------------------------------------------------------------------------------*/
+
+#vcf{
+    padding: 20px;
+    background-image: url(/geek_web/Media/img/fondocosplayv3.jpg);
+    background-size: cover;
+    align-items: center;
+	text-align: center;
+    text-shadow: 0 0 5px rgb(166, 0, 255),0 0 15px rgb(166, 0, 255),0 0 30px rgb(166, 0, 255);
+    color: white;
+    font-family: 'Comic Neue', cursive;
+}
+
+.videof{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+.videof img{
+    border: 5px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 rgb(166, 0, 255), 0 0 8px rgb(166, 0, 255);
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+/*------------------------------------------------------Grid - Evntos------------------------------------------------------------------------------*/
+#grid-ev{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: 
+    "naranja"
+    "eventosc"
+    "carrusel" 
+    "evccs";
+}
+
+/*------------------------------------------------------Video - Evntos------------------------------------------------------------------------------*/
+
+#v-envent{
+    grid-area: naranja;
+    padding: 20px;
+    background-image: url(/geek_web/Media/img/bocm.jpg);
+    background-size: contain;
+    align-items: center;
+	text-align: center;
+    text-shadow: 0 0 5px red,0 0 15px  red,0 0 30px  red;
+    color: #fff;
+    font-family: 'Comic Neue', cursive;
+
+}
+
+.v-e{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.v-e iframe{
+    border: 10px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px red, 0 0 8px red,0 0 16px red;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+.v-e img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 7px solid #fff;
+    box-shadow: inset 0 0 8px red, 0 0 8px  red, 0 0 16px red;
+}
+
+/*------------------------------------------------------Info - Evntos------------------------------------------------------------------------------*/
+
+#info-e {
+    background-image: url(/geek_web/Media/img/bocm3.jpg);
+    background-size: cover;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+    text-shadow: 0 0 5px rgb(0, 166, 255),0 0 15px  rgb(0, 166, 255),0 0 30px rgb(0, 166, 255);
+    font-family: 'Comic Neue', cursive;
+}
+
+#info-e .contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.info-event {
+	margin: 20px;
+}
+
+.info-event img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 7px solid #fff;
+    box-shadow: inset 0 0 8px rgb(0, 166, 255), 0 0 8px  rgb(0, 166, 255);
+}
+
+/*------------------------------------------------------Carrusel - Evntos------------------------------------------------------------------------------*/
+#carrusel{
+    grid-area: carrusel;
+}
+
+
+/*------------------------------------------------------comicon san diego - Evntos------------------------------------------------------------------------------*/
+#event-ccsan{
+    grid-area: evccs;
+    background-image: url(/geek_web/Media/img/ccsb.jpg);
+    background-size: cover; 
+    color: white; 
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+}
+
+#event-ccsan h1{
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+	text-align: center;
+	padding: 20px;
+    text-shadow: 0 0 5px rgb(255, 179, 0),0 0 15px  rgb(255, 179, 0),0 0 30px rgb(255, 179, 0);
+    font-family: 'Comic Neue', cursive;
+}
+
+.pfev{
+    text-shadow: none;
+	color: white;
+    border: 5px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px rgb(255, 179, 0), 0 0 8px rgb(255, 179, 0);
+    border-radius: 20px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+}
+
+.vf1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+.vf1 iframe{
+    border: 10px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px rgb(255, 179, 0), 0 0 8px rgb(255, 179, 0), 0 0 16px rgb(255, 179, 0);
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+/*------------------------------------------------------Grid - Cine y Series------------------------------------------------------------------------------*/
+#contg{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "cs-anime"
+    "eventosc"
+    "carrusel" 
+    "evccs";
+}
+/*------------------------------------------------------cs-anime - Cine y Series------------------------------------------------------------------------------*/
+
+#cs-anime{
+    grid-area: naranja;
+    padding: 20px;
+    background-image: url(/geek_web/Media/img/fondocosplayv.jpg);
+    background-size: contain;
+    align-items: center;
+
+}
+#cs-anime h1{
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+	text-align: center;
+	padding: 20px;
+    text-shadow: 0 0 5px rgb(255, 179, 0),0 0 15px  rgb(255, 179, 0),0 0 30px rgb(255, 179, 0);
+    font-family: 'Comic Neue', cursive;
+}
+
+.infanime{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+.pani{
+    text-shadow: none;
+	color: white;
+    border: 5px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px rgb(255, 179, 0), 0 0 8px rgb(255, 179, 0);
+    border-radius: 20px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+}
+
+
+.infanime iframe{
+    border: 10px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px rgb(255, 179, 0), 0 0 8px rgb(255, 179, 0), 0 0 16px rgb(255, 179, 0);
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+/*------------------------------------------------------cs-Marvel - Cine y Series------------------------------------------------------------------------------*/
+
+#cs-marvel{
+    grid-area: naranja;
+    padding: 20px;
+    background-image: url(/geek_web/Media/img/bocm4.jpg);
+    background-size: contain;
+    align-items: center;
+
+}
+#cs-marvel h1{
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+	text-align: center;
+	padding: 20px;
+    text-shadow: 0 0 5px red,0 0 15px  red,0 0 30px red;
+    font-family: 'Comic Neue', cursive;
+}
+
+.infmarvel{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+.panim{
+    text-shadow: none;
+	color: white;
+    border: 5px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px red, 0 0 8px red;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+}
+
+
+.infmarvel iframe{
+    border: 10px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px red, 0 0 8px red, 0 0 16px red;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+/*------------------------------------------------------cs-Mario - Cine y Series------------------------------------------------------------------------------*/
+
+#cs-mario{
+    grid-area: naranja;
+    padding: 20px;
+    background-image: url(/geek_web/Media/img/fmario.jpg);
+    background-size: contain;
+    align-items: center;
+
+}
+#cs-mario h1{
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+	text-align: center;
+	padding: 20px;
+    text-shadow: 0 0 5px rgb(2, 255, 2),0 0 15px  rgb(2, 255, 2),0 0 30px rgb(2, 255, 2);
+    font-family: 'Comic Neue', cursive;
+}
+
+.infmario{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+.panimr{
+    text-shadow: none;
+	color: white;
+    border: 5px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px rgb(2, 255, 2), 0 0 8px rgb(2, 255, 2);
+    border-radius: 20px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+}
+
+
+.infmario iframe{
+    border: 10px solid rgba(255, 255, 255, 0.851);
+    box-shadow: inset 0 0 8px rgb(2, 255, 2), 0 0 8px rgb(2, 255, 2), 0 0 16px rgb(2, 255, 2);
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+/*----------------------------------------------------------Footer------------------------------------------------------------------------------*/
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Comic Neue', cursive;
+    background-color:#13005A;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+}

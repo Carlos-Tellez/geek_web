@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
@@ -14,21 +15,22 @@
 
 <body>
     <header>
-        <div class = "cont-menu">
-            <div class="left">
-                <img src="Media/img/icono-geekwebjpg-removebg-preview.png" alt="logo" width="150px">
-                <H1 > Geek Web </H1>
-            </div> 
-            <div class="rite">
-                <ul class="menu">
-                    <li><a href="index.html"><span>Inicio</span></a></li>
-                    <li><a href="videojuegos.html"><span>Video Juegos</span></a></li>
-                    <li><a href="cosplay.html"><span>Coplay</span></a></li>
-                    <li><a href="eventos.html"><span>Eventos</span></a></li>
-                    <li><a href="cineyseries.html"><span>Cine y Series </span></a></li>
-                </ul>
+        <nav>
+            <div>
+                <img src="Media/img/icono-geekwebjpg-removebg-preview.png" alt="logo_geekweb" class="logo" >
             </div>
-        </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="nav-menu">
+                <li><a class="active" href="index.html"><span>Inicio</span></a></li>
+                <li><a href="videojuegos.html"><span>Video Juegos</span></a></li>
+                <li><a href="cosplay.html"><span>Cosplay</span></a></li>
+                <li><a href="eventos.html"><span>Eventos</span></a></li>
+                <li><a href="cineyseries.html"><span>Cine y Series </span></a></li>
+            </ul>
+        </nav>
     </header>
 
     <section id="banner" >
@@ -58,22 +60,22 @@
         <h2> Las Noticias mas Buscadas en nuestro Blog</h2>
 
         <div class="contenedor1">
-            <article>
+            <article class="art">
                 <img src="Media/img/Comic Con Colombia 2.jpg" width="350" height="238"data-aos="flip-left" data-aos-duration="3000">
                 <h4>Ideas de Cosplay para el Sofa 2023</h4>
             </article>
             <br>
-            <article>
+            <article class="art">
                 <img src="Media/img/anime.jpg" width="350" height="238" data-aos="flip-right" data-aos-duration="3000">
                 <h4>Animes mas Esperados para el 2023</h4>
             </article>
             <br>
-            <article>
+            <article class="art">
                 <img src="Media/img/series.jpg" width="350" height="238" data-aos="flip-left" data-aos-duration="3000">
                 <h4>del mundo de los Video Juegos a la Pantalla Grande</h4>
             </article>
             <br>
-            <article>
+            <article class="art">
                 <img src="Media/img/peliculas.jpg" width="350" height="238" data-aos="flip-right" data-aos-duration="3000">
                 <h4>Inicio de la Fase Cinco en el UCM</h4>
             </article>
@@ -91,15 +93,19 @@
                 <h4>Comic-Con San Diego</h4>				
             </div>
             <div class="info-event">
-                <img src="Media/img/comiccon.jpg" width="225" height="225" data-aos="zoom-in-down" data-aos-duration="3000">
+                <img src="Media/img/comiccon1.jpg" width="225" height="225" data-aos="zoom-in-down" data-aos-duration="3000">
                 <h4>ComicCon (corferias)</h4>				
             </div>
             <div class="info-event">
-                <img src="Media/img/sofa.jpg" data-aos="zoom-in-up" data-aos-duration="3000">
+                <img src="/geek_web/Media/img/sofagamer.jpg" data-aos="zoom-in-down" data-aos-duration="3000">
+                <h4>Sofa Gamer Eddition</h4>				
+            </div>
+            <div class="info-event">
+                <img src="Media/img/sofa1.jpg" data-aos="zoom-in-up" data-aos-duration="3000">
                 <h4>Sofa</h4>				
             </div>
             <div class="info-event">
-                <img src="/geek_web/Media/img/comic-con-sdcc.gif" data-aos="zoom-in-down" data-aos-duration="3000">
+                <img src="/geek_web/Media/img/medellin.jpg" data-aos="zoom-in-down" data-aos-duration="3000">
                 <h4>ComicCon Medellin</h4>				
             </div>
         </div>

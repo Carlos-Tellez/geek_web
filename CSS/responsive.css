@@ -1,0 +1,431 @@
+@media screen and (max-width: 1280px) {
+    
+}
+
+@media screen and (max-width: 970px) {
+    .cont-menu{
+        width: 100%;
+    }
+
+    nav ul li a{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+}
+
+@media screen and (max-width: 600px) {
+    nav, nav ul{
+        padding: 0;
+    }
+
+    nav ul li{
+        text-align: center;
+        width: 100%;
+    }
+
+    nav li a{
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+}
+/*---------------------------------------------------------  Header - MENU -------------------------------------------------------------------------------*/
+
+
+@media screen and (min-width: 1024px) {
+    .logo {
+        margin-left: 50px;
+    }
+
+    nav {
+        height: 100px;
+    }
+
+    .bar-btn {
+        display: none;
+    }
+
+    .nav-menu {
+        position: relative;
+        height: 100px;
+        top: 0;
+        background: none;
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    .nav-menu li {
+        display: inline-block;
+        line-height: 100px;
+        margin: 0 20px;
+        transition: none;
+    }
+
+    .nav-menu li a {
+        font-size: 12px;
+    }
+}
+
+/*------------------------------------------------------Banner - Principal------------------------------------------------------------------------------*/
+
+
+@media (max-width: 1300px) {
+
+    #banner .neon{
+        margin: 0;
+        font-size: 30px;
+        text-shadow: 0 0 5px blueviolet,0 0 15px blueviolet,0 0 30px blueviolet,0 0 50px blueviolet;
+        font-family: 'Roboto', sans-serif;
+    }
+    #banner .neon2{
+        margin: 0;
+        font-size: 30px;
+        text-shadow: 0 0 5px rgb(0, 174, 255),0 0 15px rgb(0, 174, 255),0 0 30px rgb(0, 174, 255);
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    #banner .neon3{
+        margin: 0;
+        font-size: 15px;
+        text-shadow: 0 0 5px  rgb(243, 243, 107),0 0 15px  rgb(243, 243, 107),0 0 30px   rgb(243, 243, 107);
+        font-family: 'Roboto', sans-serif;
+    }
+    }
+
+@media (max-width: 972px) {
+
+#banner .neon{
+    margin: 0;
+    font-size: 20px;
+    text-shadow: 0 0 5px blueviolet,0 0 15px blueviolet,0 0 30px blueviolet,0 0 50px blueviolet;
+    font-family: 'Roboto', sans-serif;
+}
+#banner .neon2{
+    margin: 0;
+    font-size: 20px;
+    text-shadow: 0 0 5px rgb(0, 174, 255),0 0 15px rgb(0, 174, 255),0 0 30px rgb(0, 174, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+#banner .neon3{
+    margin: 0;
+    font-size: 10px;
+    text-shadow: 0 0 5px  rgb(243, 243, 107),0 0 15px  rgb(243, 243, 107),0 0 30px   rgb(243, 243, 107);
+    font-family: 'Roboto', sans-serif;
+}
+}
+
+@media (max-width: 640px) {
+    #banner .contenedor{
+    border-radius: 10px;
+    margin:0;
+    padding: 10px;
+
+}
+#banner .neon{
+    margin: 0;
+    font-size: 13px;
+    text-shadow: 0 0 5px blueviolet,0 0 15px blueviolet,0 0 30px blueviolet,0 0 50px blueviolet;
+    font-family: 'Roboto', sans-serif;
+}
+#banner .neon2{
+    margin: 0;
+    font-size: 13px;
+    text-shadow: 0 0 5px rgb(0, 174, 255),0 0 15px rgb(0, 174, 255),0 0 30px rgb(0, 174, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+#banner .neon3{
+    margin: 0;
+    font-size: 8px;
+    text-shadow: 0 0 5px  rgb(243, 243, 107),0 0 15px  rgb(243, 243, 107),0 0 30px   rgb(243, 243, 107);
+    font-family: 'Roboto', sans-serif;
+}
+}
+
+@media (max-width: 400px) {
+    #banner .contenedor{
+    border-radius: 8px;
+    margin:0;
+    padding: 8px;
+
+}
+#banner .neon{
+    margin: 0;
+    font-size: 10px;
+    text-shadow: 0 0 5px blueviolet,0 0 15px blueviolet,0 0 30px blueviolet,0 0 50px blueviolet;
+    font-family: 'Roboto', sans-serif;
+}
+#banner .neon2{
+    margin: 0;
+    font-size: 10px;
+    text-shadow: 0 0 5px rgb(0, 174, 255),0 0 15px rgb(0, 174, 255),0 0 30px rgb(0, 174, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+#banner .neon3{
+    margin: 0;
+    font-size: 5px;
+    text-shadow: 0 0 5px  rgb(243, 243, 107),0 0 15px  rgb(243, 243, 107),0 0 30px   rgb(243, 243, 107);
+    font-family: 'Roboto', sans-serif;
+}
+}
+
+/*------------------------------------------------------Bienvenidos - Index ------------------------------------------------------------------------------*/
+
+@media (max-width: 1300px) {
+
+    #bienvenidos h3{
+        font-size: 15px;
+    }
+
+    .Gif{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    .Gif img{
+        margin: 10px;
+    }
+}
+
+/*------------------------------------------------------Blog - Index ------------------------------------------------------------------------------*/
+
+
+@media (max-width: 1300px) {
+    #blog .contenedor1{
+        flex-wrap: wrap;
+    }
+
+
+}
+
+/*------------------------------------------------------Video - Video Juegos------------------------------------------------------------------------------*/
+
+@media (max-width: 1300px) {
+    .v_vj {
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+
+    .v_vj img{
+        margin: 10px;
+    }
+}
+
+
+/*------------------------------------------------------Banner - Xbox ------------------------------------------------------------------------------*/
+
+@media (max-width: 1050px) {
+    #banner-xbox .neon{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 815px) {
+    #banner-xbox .neon{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 640px) {
+    #banner-xbox .neon{
+        font-size: 15px;
+    }
+}
+
+
+
+/*------------------------------------------------------Blog - Xbox ------------------------------------------------------------------------------*/
+
+@media (max-width: 1300px) {
+    #blog-xbox .neon{
+        font-size: 25px;
+    }
+
+    #blog-xbox .juegox1 {
+        flex-wrap: wrap;
+    }
+
+    #blog-xbox .juegox1 img {
+        margin: 10px;
+    }
+
+    #blog-xbox .juegox2 {
+        flex-wrap: wrap;
+    }
+
+    #blog-xbox .juegox2 img {
+        margin: 10px;
+    }
+
+}
+
+/*------------------------------------------------------Banner - Play------------------------------------------------------------------------------*/
+
+
+@media (max-width: 1050px) {
+    #banner-play .neon{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 815px) {
+    #banner-play .neon{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 640px) {
+    #banner-play .neon{
+        font-size: 15px;
+    }
+}
+
+
+/*------------------------------------------------------Blog - Play------------------------------------------------------------------------------*/
+
+@media (max-width: 1300px) {
+
+    #blog-play .neon{
+        font-size: 25px;
+    }
+
+    #blog-play .juegop1 {
+        flex-wrap: wrap;
+    }
+
+    #blog-play .juegop1 img {
+        margin: 10px;
+    }
+
+    #blog-play .juegop2 {
+        flex-wrap: wrap;
+    }
+
+    #blog-play .juegop2 img {
+        margin: 10px;
+    }
+
+}
+
+/*------------------------------------------------------ - Cosplay------------------------------------------------------------------------------*/
+
+@media (max-width: 1300px) {
+    #cosplay .parra1{
+        flex-wrap: wrap;
+    }
+
+    #cosplay .parra1 img{
+        height: 315px;
+        width: 460px;
+    }
+
+    .parra1 p {
+        margin: 20px;
+    }
+
+    #cosplay .parra2{
+        flex-wrap: wrap;
+    }
+
+    #cosplay .parra2 img{
+        height: 315px;
+        width: 460px;
+    }
+
+    .parra2 p {
+        margin: 20px;
+    }
+}
+
+/*------------------------------------------------------Video - Cosplay------------------------------------------------------------------------------*/
+
+@media (max-width: 1300px) {
+    .v_vc {
+        flex-wrap: wrap;
+    }
+
+    .pf {
+        margin: 10px;
+    }
+}
+
+/*------------------------------------------------------Video  final - Cosplay------------------------------------------------------------------------------*/
+
+@media (max-width: 1300px) {
+    .videof{
+        flex-wrap: wrap;
+    }
+
+    .videof img{
+        margin: 10px;
+    }
+}
+
+/*------------------------------------------------------Video - Evntos------------------------------------------------------------------------------*/
+
+@media (max-width: 1300px) {
+    .v-e{
+        flex-wrap: wrap;
+    }
+
+    .v-e img{
+        margin: 10px;
+    }
+}
+
+/*------------------------------------------------------comicon san diego - Evntos------------------------------------------------------------------------------*/
+
+@media (max-width: 1300px) {
+    .vf1{
+        flex-wrap: wrap;
+    }
+
+    .vf1 iframe{
+        margin: 10px;
+    }
+}
+
+/*------------------------------------------------------cs-anime - Cine y Series------------------------------------------------------------------------------*/
+
+@media (max-width: 1300px) {
+    .infanime{
+        flex-wrap: wrap;
+    }
+
+    .pani{
+        margin: 10px;
+    }
+}
+
+/*------------------------------------------------------cs-Marvel - Cine y Series------------------------------------------------------------------------------*/
+
+@media (max-width: 1300px) {
+    .infmarvel{
+        flex-wrap: wrap;
+    }
+
+    .panim{
+        margin: 10px;
+    }
+}
+
+/*------------------------------------------------------cs-Mario - Cine y Series------------------------------------------------------------------------------*/
+
+@media (max-width: 1300px) {
+    .infmario{
+        flex-wrap: wrap;
+    }
+
+    .panimr{
+        margin: 10px;
+    }
+}

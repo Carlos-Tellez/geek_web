@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
 
     <!-- Título de pestaña -->
@@ -14,37 +15,106 @@
 
 <body>
     <header>
-        <div class = "cont-menu">
-            <div class="left">
-                <img src="Media/img/icono-geekwebjpg-removebg-preview.png" alt="logo" width="150px">
-                <H1 > Geek Web </H1>
-            </div> 
-            <div class="rite">
-                <ul class="menu">
-                    <li><a href="home.html"><span>Inicio</span></a></li>
-                    <li><a href="videojuegos.html"><span>Video Juegos</span></a></li>
-                    <li><a href="cosplay.html"><span>Cosplay</span></a></li>
-                    <li><a href="eventos.html"><span>Eventos</span></a></li>
-                    <li><a href="cineyseries.html"><span>Cine y Series </span></a></li>
-                </ul>
+        <nav>
+            <div>
+                <img src="Media/img/icono-geekwebjpg-removebg-preview.png" alt="logo_geekweb" class="logo" >
             </div>
-        </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="index.html"><span>Inicio</span></a></li>
+                <li><a href="videojuegos.html"><span>Video Juegos</span></a></li>
+                <li><a href="cosplay.html"><span>Cosplay</span></a></li>
+                <li><a href="eventos.html"><span>Eventos</span></a></li>
+                <li><a class="active" href="cineyseries.html"><span>Cine y Series </span></a></li>
+            </ul>
+        </nav>
     </header>
-
-    <section id="banner">
-        <img src="Media/img/movie.jpg">
-        <div class="contenedor">
-            <h2> El mejor especia para todos los cinefilos y cenefielas del mundo Geek </h2>
-            <p> </p>
-        </div>
-    </section> 
     
-</main>
+    <main>
+        <section id="banner">
+            <img src="Media/img/movie.jpg">
+            <div class="contenedor">
+                <h2 class="neon2"> El mejor espacio para todos los cinefilos y cenefielas del </h2>
+                <h3 class="neon">
+                    <span class="flicker1"> Mundo Geek </span>
+                </h3>
+                <p> </p>
+            </div>
+        </section> 
+        
+        <div class="contg">
+            <section id="cs-anime">
+                <h1 data-aos="zoom-in" data-aos-duration="3000" >2023 llega cargado de Anime </h1>
+                <div class="infanime">
+                    <p class="pani"><b>Si el año pasado estuvo lleno de estrenos de anime buenísimos, 2023 no se queda
+                        corto para nada. Porque además de algunas novedades muy esperadas, también
+                        llegan por fin más temporadas de algunos de los animes más grandes de los últimos años.
+                        <br><br>
+                        El año empieza fuerte ya con una temporada de invierno muy cargadita, pero la
+                        verdad es que la temporada de primavera que arranca en abril no se va a quedar
+                        corta y nos va a tener en vilo semana a semana. 
+                        <br><br>
+                        2023 va a ser un año de montaña rusa con el regreso 'Shingeki no Kyojin',
+                        'Kimetsu no Yaiba' y 'Jujutsu Kaisen', pero también llegan por fin tres
+                        adaptaciones a anime muy esperadas y que seguro que van a ganarse rápidamente
+                        su propia legión de fans.</b>
+                    </p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pTHj15lmDx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </section>
 
-<footer>
-    <div class="contenedor">
-        <p class="copy">Geek Web &copy; 2022</p>
-    </div>
+            <section id="cs-marvel">
+                <h1 class="neon2"> 
+                    <span class="flicker1"> Por fin inica la fase 5 del UCM </span>
+                </h1>
+                <div class="infmarvel">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/51S4llUG5QM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p class="panim"><b>Ant-Man y la Avispa están de vuelta del Reino Cuántico con 'Ant-Man 3',
+                        oficialmente titulada 'Ant-Man y la Avispa: Quantumania', y de la que ya sabemos fecha de estreno,
+                        sinopsis, reparto, tenemos tráiler... Todos los detalles para estar al día de la próxima gran entrega 
+                        de las películas de Marvel, y, más importante aún, la que da inicio a todas las películas y series de 
+                        la fase 5 de Marvel.
+                        <br><br>
+                        Después de dos películas y varias apariciones en otros títulos de la franquicia, Scott Lang se ha convertido
+                        en uno de los superhéroes más carismáticos del Universo Cinematográfico Marvel (UCM) a través de algunas de 
+                        las mejores películas de superhéroes de todos los tiempos. Un superhéroe con un mundo propio y autónomo respecto 
+                        del resto de películas de Marvel, al mismo tiempo que muy cercano a la columna vertebral del UCM. Además, 
+                        su conexión con el Reino Cuántico ahora que la Fase 4 de Marvel se ha abierto a otros universos paralelos puede 
+                        hacer de Ant-Man una figura clave en las películas que están por venir.</b>
+                    </p>
+                </div>
+            </section>
+
+            <section id="cs-mario">
+                <h1 class="neon2"> 
+                    <span class="flicker1"> Super Mario Bros. La película junta a los personajes clásicos de Nintendo. </span>
+                </h1>
+                <div class="infmario">
+                    <p class="panimr"><b>Aunque estamos un poquito depres por el cambio de fecha para la película de Super Mario Bros. 
+                        La Película, Universal Pictures nos dejó una nueva imagen promocional de la película que eleva la fantasía 
+                        de nuestro gamer interior por ver esta cinta en la pantalla grande.
+                        <br><br>
+                        ¡Toda la pandilla del Reino Champiñón está aquí! Mario, Luigi, Peach, Toad, Donkey Kong, Bowser y varios
+                        de los esbirros del Rey que buscarán apoderarse del reino de la princesa que sigue soltando referencias del “mundo de Nintendo”
+                        <br><br>
+                        Super Mario Bros. La película cambió su fecha de estreno y ahora podremos gozar de esta película el próximo 06 de abril 
+                        en México y varios países de Latinoamérica, entre los que se encuentran Argentina, Bolivia, Brasil, Chile, Colombia, Ecuador, 
+                        Paraguay, Perú, Uruguay y Venezuela.</b>
+                    </p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DmCZoiCp5C0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div> 
+            </section>
+        </div>
+    </main>
+<footer> 
+    <p>GEEK WEB © Copyright 2023, All Rights Reserved </p>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-tiktok"></i>
 </footer>
 </body>
 
