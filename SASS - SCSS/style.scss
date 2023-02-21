@@ -577,7 +577,8 @@ article img {
 #v-envent{
     padding: 20px;
     background-image: url(../Media/img/bocm.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     align-items: center;
 	text-align: center;
     text-shadow: 0 0 5px red,0 0 15px  red,0 0 30px  red;
