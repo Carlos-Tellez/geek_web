@@ -232,7 +232,7 @@ article img {
 /*------------------------------------------------------Video - Video Juegos------------------------------------------------------------------------------*/
 #v_videoj {
   padding: 20px;
-  background-image: url(/geek_web/Media/img/fondovjjpeg.jpeg);
+  background-image: url(../Media/img/fondovjjpeg.jpeg);
   background-size: cover;
   align-items: center;
   text-align: center;
@@ -409,7 +409,7 @@ article img {
 #cosplay {
   text-align: center;
   padding: 20px;
-  background-image: url(/geek_web/Media/img/fondocosplayv2.jpg);
+  background-image: url(../Media/img/fondocosplayv2.jpg);
   background-size: cover;
   font-family: "Comic Neue", cursive;
 }
@@ -462,7 +462,7 @@ article img {
 /*------------------------------------------------------Video - Cosplay------------------------------------------------------------------------------*/
 #v_vcosplay {
   padding: 20px;
-  background-image: url(/geek_web/Media/img/fondocosplayv.jpg);
+  background-image: url(../Media/img/fondocosplayv.jpg);
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -494,7 +494,7 @@ article img {
 /*------------------------------------------------------Video  final - Cosplay------------------------------------------------------------------------------*/
 #vcf {
   padding: 20px;
-  background-image: url(/geek_web/Media/img/fondocosplayv3.jpg);
+  background-image: url(../Media/img/fondocosplayv3.jpg);
   background-size: cover;
   align-items: center;
   text-align: center;
@@ -521,15 +521,14 @@ article img {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-areas: "naranja" "eventosc" "carrusel" "evccs";
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "eventosc" "carrusel" "evccs";
 }
 
 /*------------------------------------------------------Video - Evntos------------------------------------------------------------------------------*/
 #v-envent {
-  grid-area: naranja;
   padding: 20px;
-  background-image: url(/geek_web/Media/img/bocm.jpg);
+  background-image: url(../Media/img/bocm.jpg);
   background-size: contain;
   align-items: center;
   text-align: center;
@@ -561,7 +560,8 @@ article img {
 
 /*------------------------------------------------------Info - Evntos------------------------------------------------------------------------------*/
 #info-e {
-  background-image: url(/geek_web/Media/img/bocm3.jpg);
+  grid-area: eventosc;
+  background-image: url(../Media/img/bocm3.jpg);
   background-size: cover;
   color: white;
   text-align: center;
@@ -596,7 +596,7 @@ article img {
 /*------------------------------------------------------comicon san diego - Evntos------------------------------------------------------------------------------*/
 #event-ccsan {
   grid-area: evccs;
-  background-image: url(/geek_web/Media/img/ccsb.jpg);
+  background-image: url(../Media/img/ccsb.jpg);
   background-size: cover;
   color: white;
   text-align: center;
@@ -645,14 +645,14 @@ article img {
   grid-gap: 20px;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: "cs-anime" "eventosc" "carrusel" "evccs";
+  grid-template-areas: "cs-anime" "cs-marvel" "cs-mario";
 }
 
 /*------------------------------------------------------cs-anime - Cine y Series------------------------------------------------------------------------------*/
 #cs-anime {
-  grid-area: naranja;
+  grid-area: cs-anime;
   padding: 20px;
-  background-image: url(/geek_web/Media/img/fondocosplayv.jpg);
+  background-image: url(../Media/img/fondocosplayv.jpg);
   background-size: contain;
   align-items: center;
 }
@@ -695,9 +695,9 @@ article img {
 
 /*------------------------------------------------------cs-Marvel - Cine y Series------------------------------------------------------------------------------*/
 #cs-marvel {
-  grid-area: naranja;
+  grid-area: cs-marvel;
   padding: 20px;
-  background-image: url(/geek_web/Media/img/bocm4.jpg);
+  background-image: url(../Media/img/bocm4.jpg);
   background-size: contain;
   align-items: center;
 }
@@ -740,9 +740,9 @@ article img {
 
 /*------------------------------------------------------cs-Mario - Cine y Series------------------------------------------------------------------------------*/
 #cs-mario {
-  grid-area: naranja;
+  grid-area: cs-mario;
   padding: 20px;
-  background-image: url(/geek_web/Media/img/fmario.jpg);
+  background-image: url(../Media/img/fmario.jpg);
   background-size: contain;
   align-items: center;
 }
