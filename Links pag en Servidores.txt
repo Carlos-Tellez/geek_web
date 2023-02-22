@@ -1,0 +1,25 @@
+----------------------- Link 01 - Servidor Netlify ---------------------------------
+
+
+                 https://dashing-paprenjak-85c652.netlify.app
+
+------------------------------------------------------------------------------------
+
+----------------------- Link 02 - Servidor Firebse ---------------------------------
+
+
+                  https://geek-web-2023.web.app/index.html
+                  https://geek-web-2023.firebaseapp.com/
+
+
+
+------------------------------------------------------------------------------------
+
+Nota: 
+
+El motivo por el cual la paguina se encuentra subida en dos servidores es devido
+a que en el primer Host - Netlify no mostraba los archivos que sse nesecitaban
+agrgar para la entrega como era el .json motivo por el cual se decide suir la pagina
+al segundo servidor para complir con estos requerimiento. 
+
+Todos los links adjuntos se encuentran funcionando perfectamente 
